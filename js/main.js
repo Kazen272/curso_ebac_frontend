@@ -7,6 +7,8 @@ form.addEventListener('submit', function (e) {
 function validaNumero() {
     const numeroA = parseFloat(document.getElementById("numberA").value);
     const numeroB = parseFloat(document.getElementById("numberB").value);
+
+
     const mensagemSucesso = document.querySelector(".success-message");
     const mensagemErro = document.querySelector(".error-message");
 
