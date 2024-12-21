@@ -1,7 +1,6 @@
 const form = document.getElementById("formulario");
 
 form.addEventListener('submit', function (e) {
-    let formValido = false;
     e.preventDefault();
 });
 
@@ -11,17 +10,17 @@ function validaNumero() {
     const mensagemSucesso = document.querySelector(".success-message");
     const mensagemErro = document.querySelector(".error-message");
 
-    if (numeroB > numeroA){
+    if (isNaN(numeroA) || isNaN(numeroB)) {
+        mensagemSucesso.style.display = "none";
+        mensagemErro.style.display = "none";
+        return;
+    }
+
+    if (numeroB > numeroA) {
         mensagemSucesso.style.display = "block"; // Mostra a mensagem de sucesso
         mensagemErro.style.display = "none";    // Esconde a mensagem de erro
-    }else{
+    } else {
         mensagemSucesso.style.display = "none"; // Esconde a mensagem de sucesso
         mensagemErro.style.display = "block";  // Mostra a mensagem de erro
-    if (!numeroA && !numeroB) {
-        mensagemSucesso.style.display = "none"; // Esconde a mensagem de sucesso
-        mensagemErro.style.display = "none"; // Esconde a mensagem de Erro
-        }
     }
-    
-} 
-
+}
