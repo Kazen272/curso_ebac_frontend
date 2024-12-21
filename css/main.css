@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 100vh;          /* Faz o body ocupar 100% da altura da tela */
+    margin: 0;              /* Remove margens padrão */
+    background-color: #f8f9fa; /* Adiciona uma cor de fundo clara */
+}
+
+form {
+    padding: 35px;          /* Espaçamento interno do formulário */
+    border: 4px solid #ccc; /* Borda ao redor do formulário */
+    border-radius: 8px;     /* Bordas arredondadas */
+    background-color: #fff; /* Fundo branco para o formulário */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#header_forms {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+#forms {
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
