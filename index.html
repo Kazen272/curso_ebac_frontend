@@ -17,25 +17,26 @@
                 Formulário de Validação de Números
             </h1>
         </div>
-        <div class="row g-3 align-items-center">
             <div class="col-auto">
                 <label class="form-label">Número A</label>
-            </div>
-            <div class="col-auto">
                 <input id="numberA" type="number" class="form-control" placeholder="Digíte o Número A" required>
             </div>
         </div>
-        <div class="row g-3 align-items-center">
             <div class="col-auto">
                 <label class="form-label">Número B</label>
-            </div>
-            <div class="col-auto">
                 <input id="numberB" type="number" class="form-control" placeholder="Digíte o Número B" required>
             </div>
-            <div id="botao-form" class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button onclick="validaNumero()" class="btn btn-primary me-md-2" type="submit" data-bs-toggle="tooltip"
-                    title="Clique para validar se o Número 'B' é maior que o número 'A'">Validar</button>
+        </div>
+
+            <div class="col-auto">
+                <p class="success-message"> O número B é maior que o número A </p>
+                <p class="error-message"> O número B não é maior que o número A </p>
             </div>
+        </div>
+
+        <div id="botao-form" class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button onclick="validaNumero()" class="btn btn-primary me-md-2" type="submit" data-bs-toggle="tooltip"
+                title="Clique para validar se o Número 'B' é maior que o número 'A'">Validar</button>
         </div>
         </div>
     </form>
