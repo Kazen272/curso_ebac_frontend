@@ -19,7 +19,7 @@ function validaNumero() {
         mensagemErro.style.display = "block";  // Mostra a mensagem de erro
     if (!numeroA && !numeroB) {
         mensagemSucesso.style.display = "none"; // Esconde a mensagem de sucesso
-        mensagemErro.style.display = "none"; // Esconde a mensagem de sucesso
+        mensagemErro.style.display = "none"; // Esconde a mensagem de Erro
         }
     }
     
