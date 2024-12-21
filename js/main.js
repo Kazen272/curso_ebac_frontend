@@ -19,10 +19,9 @@ function validaNumero() {
     }
 
     if (numeroB > numeroA) {
-        mensagemSucesso.style.display = "block"; // Mostra a mensagem de sucesso
-        mensagemErro.style.display = "none";    // Esconde a mensagem de erro
-    } else {
-        mensagemSucesso.style.display = "none"; // Esconde a mensagem de sucesso
-        mensagemErro.style.display = "block";  // Mostra a mensagem de erro
+        mensagemSucesso.style.display = "block"; 
+        mensagemErro.style.display = "none";    
+        mensagemSucesso.style.display = "none"; 
+        mensagemErro.style.display = "block";  
     }
 }

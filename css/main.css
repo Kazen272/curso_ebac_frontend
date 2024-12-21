@@ -1,18 +1,18 @@
 body {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;    /* Centraliza verticalmente */
-    height: 100vh;          /* Faz o body ocupar 100% da altura da tela */
-    margin: 0;              /* Remove margens padrão */
-    background-color: #f8f9fa; /* Adiciona uma cor de fundo clara */
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;         
+    margin: 0;             
+    background-color: #f8f9fa; 
 }
 
 form {
-    padding: 35px;          /* Espaçamento interno do formulário */
-    border: 4px solid #ccc; /* Borda ao redor do formulário */
-    border-radius: 8px;     /* Bordas arredondadas */
-    background-color: #fff; /* Fundo branco para o formulário */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 35px;          
+    border: 4px solid #ccc; 
+    border-radius: 8px;     
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 #header_forms {
@@ -45,8 +45,8 @@ form {
     margin: auto;
     display: none;
     text-align: center;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;    /* Centraliza verticalmente */
+    justify-content: center;
+    align-items: center;   
     border-radius: 10px;
     width: 70%;   
 }
@@ -59,8 +59,8 @@ form {
     margin: auto;
     display: none;
     text-align: center;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;    /* Centraliza verticalmente */
+    justify-content: center; 
+    align-items: center;   
     border-radius: 10px;
     width: 70%;
 }
