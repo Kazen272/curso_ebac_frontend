@@ -20,7 +20,8 @@ function validaNumero() {
 
     if (numeroB > numeroA) {
         mensagemSucesso.style.display = "block"; 
-        mensagemErro.style.display = "none";    
+        mensagemErro.style.display = "none";
+    }else{   
         mensagemSucesso.style.display = "none"; 
         mensagemErro.style.display = "block";  
     }
