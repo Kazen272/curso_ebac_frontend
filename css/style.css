@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #70a1b9;
+}
+
+#formTarefa{
+    background-color: #3e5966;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#tarefa{
+    background-color: transparent;
+    border-color: #3e5966;
+    border-radius: 20px;
+    border: 0px;
+}
