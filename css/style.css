@@ -9,7 +9,6 @@ body{
 }
 
 #formTarefa{
-    background-color: #3e5966;
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
@@ -21,3 +20,26 @@ body{
     border-radius: 20px;
     border: 0px;
 }
+
+#listaTarefas{
+    background-color: white;
+    border-color: #3e5966;
+    list-style-type: none;
+    padding: auto;
+}
+#listaTarefas li{
+    padding: 5px;
+    border-bottom: 1px solid #3e5966;
+
+}
+
+.tarefa-Concluida{
+    text-decoration-line: line-through;
+    text-decoration-color: #663e3e;
+    background-color: green;
+}
+
+.tarefa-Concluida a{
+    color: white;
+}
+
