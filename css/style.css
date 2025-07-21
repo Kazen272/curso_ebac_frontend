@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #70a1b9;
+    background-color: #ffffff;
 }
 
 #formTarefa{
@@ -16,30 +16,38 @@ body{
 
 #tarefa{
     background-color: transparent;
-    border-color: #3e5966;
+    border-color: #ffffff;
     border-radius: 20px;
     border: 0px;
 }
 
 #listaTarefas{
     background-color: white;
-    border-color: #3e5966;
+    border-color: #0f0f0f;
     list-style-type: none;
     padding: auto;
 }
 #listaTarefas li{
     padding: 5px;
-    border-bottom: 1px solid #3e5966;
-
+    margin: 5px;
+    border-color:#000000;
+    border: 1px solid;
+    border-radius: 20px;
+    
+}
+#listaTarefas li a{
+    text-decoration: none;
+    color: #000000;
 }
 
 .tarefa-Concluida{
     text-decoration-line: line-through;
-    text-decoration-color: #663e3e;
-    background-color: green;
+    text-decoration-color: #000000;
+    background-color: rgb(145, 145, 145);
 }
 
 .tarefa-Concluida a{
     color: white;
+    text-decoration: none;
 }
 
