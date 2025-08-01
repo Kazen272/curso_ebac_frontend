@@ -11,7 +11,7 @@
     <header id="cabecalho">
         <div class="navbar navbar-expand-lg">
             <div class="container">
-                <h1>Título do Site</h1>
+                <h1>Paisagem</h1>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -19,8 +19,6 @@
                     <ul class="nav navbar-nav nav-pills ">
                         <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
                         <li class="nav-item"><a class="nav-link" href="#card">Card</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
                     </ul>
                 </nav>
             </div>
@@ -28,8 +26,8 @@
         </div>
     </header>
     <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-target="#cabecalho">
-        <section id="inicio">
-            <div id="carousel-inicio"  class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <section id="inicio" class="d-flex align-items-center justify-content-center row">
+            <div id="carousel-inicio"  class="carousel carousel-fade slide col-12" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -58,42 +56,39 @@
         </section>
         <section id="card">
             <div class="container">
-                <h2>Sessão destinada aos cards</h2>
-            <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="card col">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card">
                         <img src="https://cdn.pixabay.com/photo/2025/07/21/15/20/eve-9726477_1280.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Paisagem</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card col">
-                        <img src="https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_960_720.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card col">
-                        <img src="https://cdn.pixabay.com/photo/2025/07/25/11/24/cat-9734651_1280.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Acessar</a>
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_960_720.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Paisagem</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2025/07/25/11/24/cat-9734651_1280.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Paisagem</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+                </div> 
             </div>
-            </div>
-        </section>
-        <section id="contato">
-            <h2>Contato</h2>
-        </section>
-        <section id="servicos">
-            <h2>Serviços</h2>
         </section>
     </div>
     <script src="./js/bootstrap.bundle.min.js"></script>
